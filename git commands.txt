@@ -1,0 +1,107 @@
+1  try { . "c:\Users\harig\AppData\Local\Programs\Mic... # Starting a PowerShell command, usually used for script execution or profile initialization
+2  cd .. # Change directory to the parent directory
+3  cd .. # Change directory again to the parent directory
+4  cd github 2 # Change into the "github 2" directory
+5  cd "C:\Users\harig\Downloads\Github Local Repo" # Change to the specified local repo directory
+6  cd github2 # Change into the "github2" directory
+7  cd github 2 # Change into the "github 2" directory (this may not be necessary if already inside)
+8  cd "github 2" # Change into the "github 2" directory again
+9  git init # Initialize a new Git repository
+10 git add . # Stage all changes in the current directory for the next commit
+11 git status # Check the status of the working directory and staging area
+12 git commit -m"created hi.txt" # Commit staged changes with a message
+13 git push originmain # Incorrect: This should be 'git push origin main'; attempts to push changes to a non-existent branch 'originmain'
+14 git remote add origin https://github.com/hari17291... # Add a remote repository named 'origin' with the specified URL
+15 git branch # List all local branches
+16 git push origin main # Push the local 'main' branch to the 'origin' remote
+17 git push origin master # Push the local 'master' branch to the 'origin' remote
+18 git pull # Fetch and merge changes from the default remote branch
+19 Get-History | Select-Object # Retrieve command history in PowerShell
+20 git pull origin main # Fetch and merge changes from the 'main' branch of the 'origin' remote
+21 git pull origin hi2.py # Incorrect: This should be a branch, not a file; this will fail
+22 git pull # Fetch and merge changes from the default remote branch
+23 git pull remote main # Incorrect syntax; should be 'git pull origin main'
+24 git pull origin main # Fetch and merge changes from the 'main' branch of the 'origin' remote
+25 git pull(1) # Incorrect syntax; will fail
+26 git status # Check the status of the working directory and staging area
+27 git pull origin master # Fetch and merge changes from the 'master' branch of the 'origin' remote
+28 git branch -M main # Rename the current branch to 'main'
+29 git status # Check the status of the working directory and staging area
+30 git branch -a # List all local and remote branches
+31 git pull # Fetch and merge changes from the default remote branch
+32 git branch -a # List all local and remote branches
+33 git branch # List all local branches
+34 git push origin main # Push the local 'main' branch to the 'origin' remote
+35 git branch # List all local branches
+36 git push origin master # Push the local 'master' branch to the 'origin' remote
+37 git push origin main # Push the local 'main' branch to the 'origin' remote
+38 git branch -M MAIN # Rename the current branch to 'MAIN'
+39 git branch # List all local branches
+40 git push origin MAIN # Push the local 'MAIN' branch to the 'origin' remote
+41 git branch # List all local branches
+42 git branch # List all local branches
+43 git push origin MAIN # Push the local 'MAIN' branch to the 'origin' remote
+44 git add dummy.txt # Stage changes made to 'dummy.txt'
+45 git commit -m "somethind changed in gihub2 branch ..." # Commit staged changes with a message
+46 git push origin MAIN # Push the local 'MAIN' branch to the 'origin' remote
+47 git push origin MAIN # Push the local 'MAIN' branch to the 'origin' remote
+48 git push origin MAIN # Push the local 'MAIN' branch to the 'origin' remote
+49 git branch # List all local branches
+50 git pull # Fetch and merge changes from the default remote branch
+51 git push origin MAIN # Push the local 'MAIN' branch to the 'origin' remote
+52 git # This command is incomplete and will not execute anything
+53 git branch # List all local branches
+54 Get-History | Select-Object # Retrieve command history in PowerShell
+55 Get-History | Select-Object # Retrieve command history in PowerShell
+56 git branch "this is used to list curr branch" # Incorrect syntax; will fail
+57 git branch # "this is used to list curr branch" # List all local branches
+58 gitpush # Incorrect command; should be 'git push'
+59 git push origin MAIN # Push the local 'MAIN' branch to the 'origin' remote
+60 git pull # Fetch and merge changes from the default remote branch
+61 git branch MAIN # Create a new branch named 'MAIN' (if not already existing)
+62 git push origin MAIN # Push the local 'MAIN' branch to the 'origin' remote
+63 git branch -M main # Rename the current branch to 'main'
+64 git branch # List all local branches
+65 git pull # Fetch and merge changes from the default remote branch
+66 git branch --set-upstream-to=origin/main main # Set the upstream for the local 'main' branch to 'origin/main'
+67 git pull # Fetch and merge changes from the default remote branch
+68 git branch --set-upstream-to=origin/main MAIN # Set the upstream for the local 'MAIN' branch to 'origin/main'
+69 git pull # Fetch and merge changes from the default remote branch
+70 git branch # List all local branches
+71 gitpush origin main # Incorrect command; should be 'git push origin main'
+72 git push origin main # Push the local 'main' branch to the 'origin' remote
+73 git branch # List all local branches
+74 git branch -M MAIN # Rename the current branch to 'MAIN'
+75 git branch # List all local branches
+76 git branch -m main # Rename the current branch to 'main' (if already in 'main')
+77 git branch -m hari # Rename the current branch to 'hari'
+78 git push origin hari # Push the local 'hari' branch to the 'origin' remote
+79 git checkout MAIN # Switch to the 'MAIN' branch
+80 git branch # List all local branches
+81 git merge hari # Merge the 'hari' branch into the current branch
+82 git merge main # Merge the 'main' branch into the current branch
+83 git merge master # Merge the 'master' branch into the current branch
+84 y # This is likely a response to a merge prompt (not a valid command)
+85 git merge master # Merge the 'master' branch into the current branch
+86 git merge origin/master # Merge the 'master' branch from the 'origin' remote
+87 git add . # Stage all changes in the current directory for the next commit
+88 git commit -m "Merged all files in all branches fr..." # Commit staged changes with a message
+89 git pull # Fetch and merge changes from the default remote branch
+90 git push origin MAIN # Push the local 'MAIN' branch to the 'origin' remote
+91 git branch -r # List all remote branches
+92 git branch -r # This is used to list all branches ... 
+93 git branch # List all local branches
+94 git push --all origin # Push all local branches to the 'origin' remote
+95 git branch # List all local branches
+96 git branch --D MAIN # Force delete the local 'MAIN' branch (incorrect syntax; should be 'git branch -D MAIN')
+97 git checkout hari # Switch to the 'hari' branch
+98 git branch --D MAIN # Force delete the local 'MAIN' branch (incorrect syntax; should be 'git branch -D MAIN')
+99 git branch -d MAIN # Delete the local 'MAIN' branch (if it's fully merged)
+100 git branch # List all local branches
+101 git commit "Deleted branch MAIN" # Incorrect syntax; will fail (should be 'git commit -m "Deleted branch MAIN"')
+102 git commit -m "Deleted branch MAIN" # Commit changes with a message (if there were changes staged)
+103 git push origin hari # Push the local 'hari' branch to the 'origin' remote
+104 clr # Clear the console (PowerShell command)
+105 clear # Clear the console (Unix/Linux command)
+106 Get-History | Select-Object first 100 # Retrieve the first 100 commands from history in PowerShell
+107 Get-History | Select-Object first 50 # Retrieve the first 50 commands from history in PowerShell
